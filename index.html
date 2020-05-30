@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<style>
+	img {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	div.relative{
+		position: relative;
+		left: 25px;
+	}
+	div.relative1{
+		position: relative;
+		left: 50px;
+	}
+	p.ex1 {
+  		margin-right: 50px;
+	}
+	</style>
+
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="/Users/ASUS/OneDrive/Desktop/Portfolio/index.html">J33T</a>
+	    </div>
+	    <ul class="nav navbar-nav">
+	      <li class="active"><a href="/Users/ASUS/OneDrive/Desktop/Portfolio/index.html">Home</a></li>
+	      <li><a href="/Users/ASUS/OneDrive/Desktop/Portfolio/about.html">About</a></li>
+	      <li><a href="/Users/ASUS/OneDrive/Desktop/Portfolio/projects.html">Projects</a></li>
+	      <li><a href="/Users/ASUS/OneDrive/Desktop/Portfolio/contacs.html">Contact</a></li>
+	    </ul>
+	  	</div>
+		</nav>
+		<br>
+		<br>
+		<br>
+		<img id="myImg" src="jeet.jpg" width="107" height="98" class="center">	
+		<h2><b><p id="header"></p></b></h2>
+		<h4><b><p id="details1"></p></b></h4>
+		<p id="details2"></p>
+		<p id="details3"></p>
+
+	<script type="text/javascript">
+		function image(){
+			document.getElementById("myImg").style.textAlign = "center";
+		}
+		image();
+		function header(){	
+			var a = "Carriculam Vitae";
+			document.getElementById("header").innerHTML = a;
+			document.getElementById("header").style.textAlign = "center";
+		}
+		header();
+
+		function details(){
+			var name = "Md. Muhtasim jeet";
+			var phone = "Mobile: 01717853705";
+			var email = "Email: muhtasim_jeet@hotmail.com";
+			document.getElementById("details1").innerHTML = name;
+			document.getElementById("details2").innerHTML = phone;
+			document.getElementById("details3").innerHTML = email;
+			document.getElementById("details1").style.textAlign = "center";
+			document.getElementById("details2").style.textAlign = "center";
+			document.getElementById("details3").style.textAlign = "center";
+
+		}
+		details();
+	</script>
+
+	<div class="w3-container">
+		<div class="w3-bar w3-green">
+			<div class="w3-bar-item"><h4>Carrier Objective</b></h4></div>
+		</div>
+	</div>
+	<div class="relative">
+		<h4><p id="objective" class="ex1"></p></h4>
+	</div>
+	
+	<script type="text/javascript">
+		function objective(){
+			var obj = "Looking forward to work in a software development company as a PHP Programmer where I will have the scope to utilize my potentiality, creativity, adaptability and skill to do something innovative and from where I will be able to enhance my knowledge.";
+			document.getElementById("objective").innerHTML = obj;
+				
+		}
+		objective();
+	</script>
+
+	<div class="w3-container">
+		<div class="w3-bar w3-green">
+			<div class="w3-bar-item"><h4>Educational Qualifications</b></h4></div>
+		</div>
+	</div>
+	<div class="relative">
+		<h4><b><p id="bsc"></p></b></h4>
+		<div class="relative1">
+			<p id="de"></p>
+			<p id="uni"></p>
+			<p id="res"></p>
+			<p id="st"></p>
+			<p id="py"></p>
+		</div>
+		<h4><b><p id="hsc"></p></b></h4>
+		<div class="relative1">
+			<p id="ins1"></p>
+			<p id="br1"></p>
+			<p id="gr1"></p>
+			<p id="re1"></p>
+			<p id="ps1"></p>
+		</div>
+		<h4><b><p id="ssc"></p></b></h4>
+		<div class="relative1">
+			<p id="ins2"></p>
+			<p id="br2"></p>
+			<p id="gr2"></p>
+			<p id="re2"></p>
+			<p id="ps2"></p>
+		</div>
+			
+	</div>
+
+	<script type="text/javascript">
+		var bsc = "#	Bachelor of Science (BSc):";
+		document.getElementById("bsc").innerHTML = bsc;
+			var de = "* Department: Department of CSE";
+			var uni = "* University: Eastern University";
+			var res = "* Result: 3.73 (Out of 4.00)";
+			var st = "* Status: Running";
+			var py = "* Passing Year: 2020";
+			document.getElementById("de").innerHTML = de;
+			document.getElementById("uni").innerHTML = uni;
+			document.getElementById("res").innerHTML = res;
+			document.getElementById("st").innerHTML = st;
+			document.getElementById("py").innerHTML = py;
+
+		var hsc = "#	Higher Secondary Certificate (HSC):";
+		document.getElementById("hsc").innerHTML = hsc;
+			var ins1 = "* Institution: Rajshahi Collegiate School & College";
+			var br1 = "* Board: Rajshahi";
+			var gr1 = "* Group: Science";
+			var re1 = "* Result: 4.60 (Out of 5.00)";
+			var ps1 = "* Passing Year: 2013";
+			document.getElementById("ins1").innerHTML = ins1;
+			document.getElementById("br1").innerHTML = br1;
+			document.getElementById("gr1").innerHTML = gr1;
+			document.getElementById("re1").innerHTML = re1;
+			document.getElementById("ps1").innerHTML = ps1;
+
+		var ssc = "#	Secondary School Certificate (SSC):";
+		document.getElementById("ssc").innerHTML = ssc;
+			var ins2 = "* Institution: Rajshahi Model School & College";
+			var br2 = "* Board: Rajshahi";
+			var gr2 = "* Group: Science";
+			var re2 = "* Result: 5.00 (Out of 5.00)";
+			var ps2 = "* Passing Year: 2011";
+			document.getElementById("ins2").innerHTML = ins2;
+			document.getElementById("br2").innerHTML = br2;
+			document.getElementById("gr2").innerHTML = gr2;
+			document.getElementById("re2").innerHTML = re2;
+			document.getElementById("ps2").innerHTML = ps2;
+	</script>
+
+	
+	<div class="w3-container">
+		<div class="w3-bar w3-green">
+			<div class="w3-bar-item"><h4>Skills</b></h4></div>
+		</div>
+	</div>
+	<div class="relative">
+		<h4><b><p id="lan"></p></b></h4>
+			<div class="relative1">
+				<p id="bn"></p>
+				<p id="en"></p>
+			</div>
+		<h4><b><p id="cs"></p></b></h4>
+			<div class="relative1">
+				<p id="ln"></p>
+				<p id="db"></p>
+			</div>
+		<h4><b><p id="ip"></p></b></h4>
+			<div class="relative1">
+				<p id="it1"></p>
+				<p id="it2"></p>
+			</div>
+	</div>
+	<script type="text/javascript">
+		var lan = "#	Language Skills:";
+		document.getElementById("lan").innerHTML = lan;
+			var bn = "*	Bengali(Mother Tongue)";
+			var en = "*	English(Fluent in speaking and writing)";
+			document.getElementById("bn").innerHTML = bn;
+			document.getElementById("en").innerHTML = en;
+
+		var cs = "#	Computer Skills:";
+		document.getElementById("cs").innerHTML = cs;
+			var ln = "*	Languages: C, C++, Java, PHP, Phython";
+			var db = "*	Databases: MySQL, SQL server";
+			document.getElementById("ln").innerHTML = ln;
+			document.getElementById("db").innerHTML = db;
+
+		var ip = "#	Interpersonal Skills:";
+		document.getElementById("ip").innerHTML = ip;
+			var it1 = "*	Patient, Sincere, responsible, hardworking, confident  ";
+			var it2 = "*	Supportive, encouraging, group facilitating, cooperative with others.";
+			document.getElementById("it1").innerHTML = it1;
+			document.getElementById("it2").innerHTML = it2;
+
+	</script>
+
+	<div class="w3-container">
+		<div class="w3-bar w3-green">
+			<div class="w3-bar-item"><h4>Expertise</b></h4></div>
+		</div>
+	</div>
+	<br>
+	<div class="relative">
+		<div class="relative1">
+			<p id="ex1"></p>
+			<p id="ex2"></p>
+			<p id="ex3"></p>
+			<p id="ex4"></p>
+			<p id="ex5"></p>
+			<p id="ex6"></p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var ex1 = "*	PHP (Procedural and OOP)";
+		var ex2	= "*	JavaScript (Ajax and Jquery)";
+		var ex3 = "*	HTML, CSS";
+		var ex4 = "*    Java";
+		var ex5 = "*	Database (MySQL,MSSQL/SQL Server)";
+		var ex6 = "*    Laravel";
+		document.getElementById("ex1").innerHTML = ex1;
+		document.getElementById("ex2").innerHTML = ex2;
+		document.getElementById("ex3").innerHTML = ex3;
+		document.getElementById("ex4").innerHTML = ex4;
+		document.getElementById("ex5").innerHTML = ex5;
+		document.getElementById("ex6").innerHTML = ex6;
+	</script>
+
+	<div class="w3-container">
+		<div class="w3-bar w3-green">
+			<div class="w3-bar-item"><h4>Experience</b></h4></div>
+		</div>
+	</div>
+	<div class="relative">
+		<h4><p id="exp" class="ex1"></p></h4>
+	</div>
+	<script type="text/javascript">
+		function experience(){
+			var exp ="I have 1 year’s experience of making web apps using PHP and MySQL and 1 year’s experience of Laravel and also have 6 month experience to build apps with java.  I am a very   passionate and quick learner. I can prove my skills if I get an opportunity. My academic result shows my dedication and effort towards my study and the same dedication I have for my works too.";
+			document.getElementById("exp").innerHTML = exp;
+		}
+		experience();
+	</script>
+
+	<div class="w3-container">
+		<div class="w3-bar w3-green">
+			<div class="w3-bar-item"><h4>Developed Software</b></h4></div>
+		</div>
+	</div>
+	<br>
+	<div class="relative">
+		<div class="relative1">
+			<p id="ds1"></p>
+			<p id="ds2"></p>
+			<p id="ds3"></p>
+			<p id="ds4"></p>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		var ds1 = "*	Bus Ticket Management System";
+		var ds2	= "*	Online Blogging Site ";
+		var ds3 = "*	Chat Messenger (Java)";
+		var ds4 = "*    Eastern University Bus Booking System";
+		document.getElementById("ds1").innerHTML = ds1;
+		document.getElementById("ds2").innerHTML = ds2;
+		document.getElementById("ds3").innerHTML = ds3;
+		document.getElementById("ds4").innerHTML = ds4;
+
+	</script>
+
+	<div class="w3-container">
+		<div class="w3-bar w3-green">
+			<div class="w3-bar-item"><h4>Hobby</b></h4></div>
+		</div>
+	</div>
+	<br>
+	<div class="relative">
+		<div class="relative1">
+			<p id="hb"></p>		
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		var hb = "*	Doing Something Creative ";
+		document.getElementById("hb").innerHTML = hb;
+	</script>
+
+	<div class="w3-container">
+		<div class="w3-bar w3-green">
+			<div class="w3-bar-item"><h4>Personal Information</b></h4></div>
+		</div>
+	</div>
+
+	<div class="relative">
+		<div class="relative1">
+			<h4><p id="pi1"></p></h4>
+			<h4><p id="pi2"></p></h4>
+			<h4><p id="pi3"></p></h4>
+			<h4><p id="pi4"></p></h4>
+			<h4><p id="pi5"></p></h4>
+			<h4><p id="pi6"></p></h4>
+			<h4><p id="pi7"></p></h4>
+			<h4><p id="pi8"></p></h4>
+			<h4><p id="pi9"></p></h4>
+			<h4><p id="pi10"></p></h4>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var pi1 = "Full Name: Md. Muhtasim Jeet";
+		var pi2 = "Father’s Name: Mohammad Ali Zinnah";
+		var pi3 = "Mother’s Name: Mokseda Khatun";
+		var pi4 = "Nationality: Bangladeshi ";
+		var pi5 = "Religion: Islam (Sunni)";
+		var pi6 = "Marital Status: Single ";
+		var pi7 = "Blood Group: A+";
+		var pi8 = "Date of Birth: July 28,1996";
+		var pi9 = "Present Address: C-13, Zakir Hossain Road,Mohammadpur, Dhaka-1207";
+		var pi10 ="Permanent Address: 430, Sagorpara, Shibtala, Ghoramar,Boalia, Rajshahi – 6100";
+		document.getElementById("pi1").innerHTML = pi1;
+		document.getElementById("pi2").innerHTML = pi2;
+		document.getElementById("pi3").innerHTML = pi3;
+		document.getElementById("pi4").innerHTML = pi4;
+		document.getElementById("pi5").innerHTML = pi5;
+		document.getElementById("pi6").innerHTML = pi6;
+		document.getElementById("pi7").innerHTML = pi7;
+		document.getElementById("pi8").innerHTML = pi8;
+		document.getElementById("pi9").innerHTML = pi9;
+		document.getElementById("pi10").innerHTML = pi10;
+	</script>
+
+	<div class="w3-container">
+		<div class="w3-bar w3-green">
+			<div class="w3-bar-item"><h4>Attended Workshop</b></h4></div>
+		</div>
+	</div>
+	<br>
+	<div class="relative">
+		<div class="relative1">
+			<b><p id="aw1"></p></b>
+			<b><p id="aw2"></p></b>
+			<b><p id="aw3"></p></b>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		var aw1 = "*	Active Citizen (British Council) Organised by CCD Bangladesh";
+		var aw2 = "*	Graphics Designing organised by Creative IT";
+		var aw3 = "*	Code to Success Organised by UIU APP Forum";
+		document.getElementById("aw1").innerHTML = aw1;
+		document.getElementById("aw2").innerHTML = aw2;
+		document.getElementById("aw3").innerHTML = aw3;
+
+	</script>
+
+
+</body>
+</html>
